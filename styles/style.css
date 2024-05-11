@@ -1,0 +1,39 @@
+/* Common Styles */
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/background/background-image.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    font-family: "Open Sans";
+}
+
+
+@media only screen and (max-width: 650px) {
+    #main-nav > .nav-container {
+        display: grid;
+        justify-content: center;
+    }
+
+    #main-nav > .nav-container > .logo {
+        text-align: center;
+    }
+    #main-nav > .nav-container > .sign-wrapper {
+        text-align: center;
+        justify-self: center;
+    }
+    #main-nav > .nav-container > .sign-wrapper ul {
+        width: 190px;
+    }
+    #main-nav > .nav-container > .sign-wrapper ul li {
+        width: 85px;
+    }
+}

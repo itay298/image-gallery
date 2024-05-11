@@ -1,0 +1,96 @@
+/* Common nav styles */
+#main-nav {
+    width: 98.5%;
+    padding: 25px;
+    margin: 15px;
+    min-height: 80px;
+    background-color: hsl(184, 14%, 61%);
+    box-shadow: 0 0 5px rgba(23, 30, 30, 0.6);
+    border-radius: 15px;
+    user-select: none;
+    position: fixed;
+}
+
+.navbar-wrapper {
+    width: 250px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Open Sans", sans-serif;
+    color: #2d2d2d;
+    align-items: center;
+}
+
+.nav-container > .logo {
+    font-size: 1.5em;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 250px;
+}
+
+.blue {
+    color: #0150fb;
+}
+
+/* navbar */
+
+.nav-container > .navbar-wrapper ul{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 2px;
+    font-size: large;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-container > .navbar-wrapper ul li {
+    list-style-type: none;
+    width: 70px;
+}
+
+.nav-container > .navbar-wrapper ul li a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s ease-in-out;
+}
+
+.nav-container > .navbar-wrapper ul li a:hover {
+    color: #0150fb;
+    letter-spacing: 2px;
+    border-bottom-color: #0150fb;
+}
+
+/* Sign navbar */
+
+.nav-container > .sign-wrapper ul{
+    display: flex;
+    width: 250px;
+    align-items: center;
+    gap: 10px;
+    margin-top: 2px;
+    font-size: large;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-container > .sign-wrapper ul li {
+    list-style-type: none;
+    width: 100px;
+}
+
+.nav-container > .sign-wrapper ul li a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s ease-in-out;
+}
+
+.nav-container > .sign-wrapper ul li a:hover {
+    color: #0150fb;
+    letter-spacing: 2px;
+    border-bottom-color: #0150fb;
+}
