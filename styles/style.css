@@ -23,6 +23,7 @@ body {
 }
 
 .logo > .nav-btn > button{
+    display: none;
     background: transparent;
     outline: none;
     border: none;
@@ -31,6 +32,9 @@ body {
 
 
 @media only screen and (max-width: 650px) {
+    .logo > .nav-btn > button {
+        display: block;
+    }
     #main-nav > .nav-container {
         display: block;
         justify-content: center;
