@@ -22,8 +22,11 @@ body {
     padding: 15px;
 }
 
-.logo > .nav-btn > button{
+.logo > .nav-btn {
     display: none;
+}
+
+.logo > .nav-btn > button{
     background: transparent;
     outline: none;
     border: none;
@@ -32,7 +35,7 @@ body {
 
 
 @media only screen and (max-width: 650px) {
-    .logo > .nav-btn > button {
+    .logo > .nav-btn {
         display: block;
     }
     #main-nav > .nav-container {
