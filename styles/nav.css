@@ -1,8 +1,7 @@
 /* Common nav styles */
 #main-nav {
-    width: 98.5%;
+    width: 100%;
     padding: 25px;
-    margin: 15px;
     min-height: 80px;
     background-color: hsl(184, 14%, 61%);
     box-shadow: 0 0 5px rgba(23, 30, 30, 0.6);
